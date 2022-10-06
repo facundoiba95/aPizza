@@ -59,14 +59,14 @@
     nombre:"Burguer Simple",
     ingredientes: ["200g carne","Queso",'Aderezo'],
     precio: 1000,
-    imagenes: "",
+    imagenes: "https://github.com/facundoiba95/aPizza/blob/master/assets/img/hamburguesa-simple.png?raw=true",
     categoria:"Hamburguesas"
   },
   { id:9,
     nombre:"Burguer Doble",
     ingredientes: ['300g carne','Lechuga','Tomate','Aderezo'],
     precio: 1200,
-    imagenes: "",
+    imagenes: "https://github.com/facundoiba95/aPizza/blob/master/assets/img/hamburguesa-doble.jpg?raw=true",
     categoria:"Hamburguesas"
   },
 ],
