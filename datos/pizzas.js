@@ -1,4 +1,4 @@
-let Pizzas = [
+ let Pizzas = [
     {id:1,
      nombre:"simple",
      ingredientes: ['queso','tomate','oregano'],
@@ -40,7 +40,9 @@ let Pizzas = [
       precio: 800,
       imagenes: "https://github.com/facundoiba95/aPizza/blob/master/assets/img/pizza-mozzarella.jfif?raw=true"
     },
-  ]
   
-  module.exports= Pizzas;
+]
   
+
+module.exports = Pizzas
+
