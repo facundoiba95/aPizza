@@ -24,7 +24,7 @@
       nombre:"rucula",
       ingredientes: ['queso','salsa','jamon','rucula'],
       precio: 1400,
-      imagenes: "https://github.com/facundoiba95/aPizza/blob/master/assets/img/pizza-rucula.jfif?raw=true"
+      imagenes: "https://github.com/facundoiba95/aPizza/blob/master/assets/img/pizza-rucula.jpg?raw=true"
     },
   
     {id:5,
@@ -38,7 +38,7 @@
       nombre:"muza",
       ingredientes: ['muza','salsa','morron','oregano'],
       precio: 800,
-      imagenes: "https://github.com/facundoiba95/aPizza/blob/master/assets/img/pizza-mozzarella.jfif?raw=true"
+      imagenes: "https://github.com/facundoiba95/aPizza/blob/master/assets/img/pizza-mozzarella.jpg?raw=true"
     },
   
 ]
