@@ -12,19 +12,27 @@ const cors = require('cors')
 app.use(cors())
 
 const Menu = require('./datos/Menu')
-const routerPizzas = express.Router();
-app.use('/api/pizzas', routerPizzas)
+const routerApi = express.Router();
+app.use('/api/', routerApi)
 
 
 
-routerPizzas.get('/',(req,res)=> {
-    const path = req.path;
-    if(path === '/'){
-       return res.send(Menu)
+routerApi.get('/',(req,res)=> {
+      if(req.query.categoria === 'pizzas'){
+        return res.send(Menu[0])
+    } if(req.query.categoria === 'hamburguesas'){
+        return res.send(Menu[1])
+    } if(req.query.categoria === 'papas'){
+        return res.send(Menu[2])
     } else {
-        return res.status(404).send('No se encontro la pagina :/')
-    }
+        const error = res.status(404)
+        return res.status(404).send(`No se encontro esa categoria :/ Error: ${error}`)
+     }
 })
+
+
+
+
 
 
 
