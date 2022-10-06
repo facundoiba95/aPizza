@@ -1,0 +1,16 @@
+{
+  "name": "apipizzas",
+  "version": "1.0.0",
+  "description": "api de pizzas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node router.js"
+  },
+  "author": "facundo ibañez gambarte",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
