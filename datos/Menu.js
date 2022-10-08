@@ -67,7 +67,7 @@
       nombre:"Burguer Simple",
       ingredientes: ["200g carne","Queso",'Aderezo'],
       precio: 1000,
-      imagenes: "https://github.com/facundoiba95/aPizza/blob/master/assets/img/hamburguesa-simple.png?raw=true",
+      imagenes: "https://github.com/facundoiba95/aPizza/blob/master/assets/img/hamburguesa-simple.jpg?raw=true",
       categoria:"Hamburguesas"
   },
   { 
