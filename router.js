@@ -1,5 +1,5 @@
 /*
-1) importar express
+1)importar express
 2)importar app de express para trabajar con un servidor ya creado
 3)instalar cors desde npm
 4)usar cors mediante app.use(cors())
